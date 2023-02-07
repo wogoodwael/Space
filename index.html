@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Space</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="hero">
+
+        <div class="content">
+            <small> welcome to our website</small>
+            <h1>
+                Space Exploration
+            </h1>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="#parallax" class="ab">About</a>
+            <a href="#Explore" class="Ex">Explore</a>
+            <a href="#footer" class="pro">Contact</a>
+
+        </div>
+        <div class="side_bare">
+            <div class="social-linkes">
+                <a href="https://www.facebook.com/wogoodwaell"><img src="fb.png"></a>
+                <a href="https://instagram.com/wogood5901?igshid=YmMyMTA2M2Y="> <img src="ig.png"></a>
+                <a href="https://twitter.com/WogoodWael?t=nvAuxc1mdK6IptHbV_bQJg&s=09"><img src="tw.png"></a>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <section id="Explore">
+        <div class="title-text">
+            <p>Explore more</p>
+            <h2>
+                we provide you with more information
+            </h2>
+
+        </div>
+        <div class="Explore-box">
+            <div class="single-explore">
+                <img src="marekh.jpg" height="100%" />
+                <div class="overlay"></div>
+                <div class="exp-dec">
+                    <h3>Mars(marekh)</h3>
+                    <hr>
+                    <p>
+                        Mars or the red planet is the fourth planet
+                        in terms of distance from the sun in the
+                        solar system
+                    </p>
+                </div>
+            </div>
+            <div class="single-explore">
+                <img src="moshtra.jpg" height="100%" />
+                <div class="overlay"></div>
+                <div class="exp-dec">
+                    <h3>Jupiter(moshtra)</h3>
+                    <hr>
+                    <p>
+                        Jupiter is the fifth planet from the sun
+                        and the largest planet in the solar system.
+
+
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="single-explore">
+                <img src="nebton.jpg">
+                <div class="overlay"></div>
+                <div class="exp-dec">
+                    <h3>Neptune</h3>
+                    <hr>
+                    <p>
+                        Neptune is the eighth planet from the Sun
+                        and the farthest known solar planet.
+
+                    </p>
+                </div>
+            </div>
+            <div class="single-explore">
+                <img src="otardjpg.jpg" height="100%" />
+                <div class="overlay"></div>
+                <div class="exp-dec">
+                    <h3>Mercury(Otard)</h3>
+                    <hr>
+                    <p>
+                        Mercury is the smallest planet in the solar system
+                        and closest to the sun.It has a diameter of about 4,880 km,
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="single-explore">
+                <img src="zohal.jpg">
+                <div class="overlay"></div>
+                <div class="exp-dec">
+                    <h3>Saturn(Zohal)</h3>
+                    <hr>
+                    <p>
+                        Saturn is the sixth planet from the sun and is the second largest planet in the
+                        solar system
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="single-explore">
+                <img src="zohra.jpg">
+                <div class="overlay"></div>
+                <div class="exp-dec">
+                    <h3>Venus</h3>
+                    <hr>
+                    <p>
+                        Venus is the second planet from the Sun
+                        Venus can cast shadows and can be visible to the naked eye
+
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="parallax">
+        <img src="bg.jpg" id="bg">
+        <img src="moon.png" id="moon">
+        <img src="mountain.png" id="mountain">
+        <img src="road.png" id="road">
+
+        <h2 id="text"> About Us <br>
+            <p>
+                We provide you by
+                information about space
+                to make you enjoy the time with us
+                have good time
+            </p>
+        </h2>
+    </section>
+    <section class="foo">
+        <div class="sp">
+            <img src="footer.gif" alt="" srcset="">
+            <img src="pl2.gif" alt="" srcset="">
+            <img src="planets.gif" class="im3">
+        </div>
+        <footer id="footer">
+            <div class="footer-content">
+                <h4>Thanks...</h4>
+                <p>we are hsppy because you are here</p>
+                <ul class="social">
+                    <li><a href="https://www.snapchat.com/add/wogood_wael2020?share_id=S9jp9nMSUG8&locale=ar-EG"><i
+                                class="fa fa-snapchat"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/wogood-wael-695209241"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li><a href="https://pin.it/7C8DjFu"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    copyright &copy;2020 XusDev .designed by <span>ISGO</span>
+                </p>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        let bg = document.getElementById("bg");
+        let moon = document.getElementById("moon");
+        let mountain = document.getElementById("mountain");
+        let road = document.getElementById("road");
+        let text = document.getElementById("text");
+        window.addEventListener('scroll', function () {
+            var value = window.scrollY;
+            bg.style.top = value * .01 + 'px';
+            moon.style.left = -value * 0.2 + 'px';
+            mountain.style.top = -value * 0.03 + 'px';
+            road.style.top = value * 0.03 + 'px';
+            text.style.top = value * 0.09 + 'px';
+
+
+        })
+    </script>
+</body>
+
+</html>
